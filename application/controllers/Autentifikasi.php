@@ -1,4 +1,5 @@
 <?php
+
 class Autentifikasi extends CI_Controller
 {
 public function index()
@@ -8,7 +9,7 @@ if($this->session->userdata('email')){
 redirect('user');
 }
 $this->form_validation->set_rules('email', 'Alamat Email',
-'required|trim|valid_email', [
+'required|trim|valid_email',[
 'required' => 'Email Harus diisi!!',
 'valid_email' => 'Email Tidak Benar!!'
 ]);
@@ -73,4 +74,14 @@ terdaftar!!</div>');
 redirect('autentifikasi');
 }
 }
+public function blok()
+{
+$this->load->view('autentifikasi/blok');
 }
+public function gagal()
+{
+$this->load->view('autentifikasi/gagal');
+}
+}
+//tambahkan method untuk mengontrol blok.php dan gagal php di atas dalam controller autentifikasi.php
+
