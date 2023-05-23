@@ -3,7 +3,8 @@
 <head>
  <meta charset="utf-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <meta name="viewport" content="width=device-width, initial-
+ scale=1, shrink-to-fit=no">
  <meta name="description" content="">
  <meta name="author" content="">
  <title>SB Admin 2 - Login</title>
@@ -44,12 +45,10 @@ form-control-user" id="exampleInputPassword" placeholder="Password">
  <div class="form-group">
  <div class="custom-control custom-checkbox 
 small">
- <input type="checkbox" class="custom-control-input" id="customCheck">
- <label class="custom-control-label"
-for="customCheck">Remember Me</label>
+ 
  </div>
  </div>
- <a href="index.html" class="btn btn-primary btn-user btn-block">
+ <a href="facebook.com" class="btn btn-primary btn-user btn-block">
  Login
  </a>
  <hr>
